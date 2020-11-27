@@ -1,0 +1,117 @@
+/* Author: Ahcmad M. Angagao */
+
+[class*="col-"] {
+	width: 100%;
+}
+
+@media only screen and (min-width: 0px) {
+	body {
+		background-color: #333333;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	#card {
+		background-color: white;
+		width: 90%;
+		border-radius: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 2px 2px 8px 2px #000000;
+	}
+
+	#privacy-header {
+		background-image: linear-gradient(to right, #614385, #516395);
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	#privacy-body{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+	}
+
+	.texts {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	#title-one {
+		font-size: 18px;
+		text-align: center;
+		color: lightgrey;
+	}
+
+	#title-two {
+		font-size: 18px;
+	}
+
+	#title-three {
+		font-size: 18px;
+	}
+
+	#title-four {
+		font-size: 18px;
+	}
+
+	.highlight-text {
+		color: green;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	body {
+		background-color: #333333;
+	}
+
+	#card {
+		background-color: white;
+		width: 450px;
+		border-radius: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 2px 2px 8px 2px #000000;
+	}
+
+	#privacy-header {
+		background-image: linear-gradient(to right, #614385, #516395);
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	#privacy-body{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+	}
+
+	.texts {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	#title-one {
+		font-size: 18px;
+		text-align: center;
+		color: lightgrey;
+	}
+
+	#title-two {
+		font-size: 18px;
+	}
+
+	#title-three {
+		font-size: 18px;
+	}
+
+	#title-four {
+		font-size: 18px;
+	}
+
+	.highlight-text {
+		color: green;
+	}
+}
